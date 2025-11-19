@@ -1,0 +1,168 @@
+'''
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body> <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>VERANO GELADO</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="#carrinho" class="nav-link">Carrinho</a></li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu"> <span class="bar"></span> <span class="bar"></span> <span
+                        class="bar"></span> </div>
+            </div>
+        </nav>
+    </header> <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Olá! Somos a <span class="highlight">VERANO GELADO</span></h1>
+                <p class="hero-subtitle">Aqui você encontra o frescor que o seu dia pede.</p>
+                <div class="hero-buttons"> <a href="#produtos" class="btn btn-primary">Ver Produtos</a> <a
+                        href="#carrinho" class="btn btn-secondary">Meu Carrinho</a> </div>
+            </div>
+            <div class="hero-image"> <!-- Você pode substituir esta imagem --> <img
+                    src="WhatsApp Image 2025-11-13 at 19.13.50.jpeg" alt="Destaque da Loja" class="profile-img"> </div>
+        </div>
+    </section>
+
+    <!--Video test-->
+
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title">Conheça a Loja</h2>
+            <div class="video-wrapper">
+                <iframe src="https://youtu.be/QwNXB_SF6rw?list=RDQwNXB_SF6rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscop" allowfullscreen title="Flor do medo"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        <section id="video" class="video">
+        <div class="title-video">
+            <h2 class="section-title">Breve Apresentação</h2>
+            <div class="container-video">
+                <video src=""></video>
+                <video controls width="600px" height="400px">
+                    <source src="" type="video/webm">
+                    <source src="" type="video/mp4">
+
+                    <a href="">WEBM</a>
+                    <a href="">MP4</a>
+                </video>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- Sobre Section -->
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre a Empresa</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Somos a VERANO GELADO, empresa de gelados, onde cada sabor é pensado para transformar momentos em
+                        experiências inesquecíveis!
+                        Aqui, você encontra variedade para todos os gostos, desde receitas clássicas que despertam a
+                        nostalgia até combinações exclusivas criadas para quem adora personalização.
+                        </br></br>
+                        Nosso compromisso é oferecer economia de dinheiro sem abrir mão da qualidade, garantindo que
+                        você possa aproveitar seus sorvetes favoritos com tranquilidade e sem pesar
+                        no bolso.
+                        </br></br>
+                        Além disso, propocionamos conforto e convivência: seja para saborear em casa, recebe por
+                        delivery ou aproveitar em nossos pontos de venda, tudo é pensado para facilitar
+                        o seu dia.
+                        </br></br>
+                        Acreditamos que sorvete é também bem-estar, diversão e entreterimento, por isso cada produto é
+                        preparado para trazer leveza, alegria e aquele sorriso espontâneo que só
+                        um bom gelado pode oferecer. </p>
+                    <p>Navegue por nossa seleção de produtos e descubra o sabor que combina com você!</p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Produtos Section -->
+    <section id="produtos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="projects-grid"> <!-- Produto 1 -->
+                <div class="project-card">
+                    <div class="project-image"> <img src="WhatsApp Image 2025-11-13 at 19.13.50.jpeg" alt="Produto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Produto Exemplo 1</h3>
+                        <p>Descrição breve do produto, destacando suas principais qualidades.</p>
+                        <div class="project-tech"> <span class="tech-tag">R$ 23,41</span> </div> <button
+                            class="btn btn-primary add-to-cart" data-id="1" data-name="Produto Exemplo 1"
+                            data-price="23.41">Adicionar ao Carrinho</button>
+                    </div>
+                </div> <!-- Produto 2 -->
+                <div class="project-card">
+                    <div class="project-image"> <img src="WhatsApp Image 2025-11-13 at 19.13.50.jpeg" alt="Produto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Produto Exemplo 2</h3>
+                        <p>Descrição breve do produto, destacando suas principais qualidades.</p>
+                        <div class="project-tech"> <span class="tech-tag">R$ 31,24</span> </div> <button
+                            class="btn btn-primary add-to-cart" data-id="2" data-name="Produto Exemplo 2"
+                            data-price="31.24">Adicionar ao Carrinho</button>
+                    </div>
+                </div> <!-- Produto 3 -->
+                <div class="project-card">
+                    <div class="project-image"> <img src="WhatsApp Image 2025-11-13 at 19.13.50.jpeg" alt="Produto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Produto Exemplo 3</h3>
+                        <p>Descrição breve do produto, destacando suas principais qualidades.</p>
+                        <div class="project-tech"> <span class="tech-tag">R$ 32,44</span> </div> <button
+                            class="btn btn-primary add-to-cart" data-id="3" data-name="Produto Exemplo 3"
+                            data-price="32.44">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Carrinho Section -->
+    <section id="carrinho" class="contact">
+        <div class="container">
+            <h2 class="section-title">Carrinho de Compras</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Itens no seu carrinho</h3>
+                    <div class="itens-carrinho">
+                        <p>Seu carrinho está vazio.</p> <!-- Itens do carrinho serão inseridos aqui -->
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Total da Compra</h3>
+                    <div class="total-carrinho">
+                        <p>Total: R$ <span id="valor-total">0.00</span></p> <button id="finalizar-compra"
+                            class="btn btn-primary">Finalizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 VERANO GELADO. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
